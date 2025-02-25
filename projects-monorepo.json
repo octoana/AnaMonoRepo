@@ -1,16 +1,20 @@
 {
-  "python": {
-    "projects": {
-      "PythonScript": {
-        "paths": ["PythonScript"]
-      }
+    "python": {
+        "projects": {
+            "PythonScript": {
+                "paths": [
+                    "PythonScript"
+                ]
+            }
+        }
+    },
+    "java": {
+        "projects": {
+            "PythonScript": {
+                "paths": [
+                    "JavaApp"
+                ]
+            }
+        }
     }
-  }
-  "java": {
-    "projects": {
-      "PythonScript": {
-        "paths": ["JavaApp"]
-      }
-    }
-  }
 }
