@@ -14,8 +14,7 @@ public class Main {
         System.out.printf("Hello and welcome!");
 
         //this is using a vuln library
-        logger.info("this is logging a string using a vuln log4j");
-
+        logger.info("this is logging a string using a vuln log4j - Ana test");
 
         for (int i = 1; i <= 5; i++) {
             //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
