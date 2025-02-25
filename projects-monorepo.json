@@ -1,7 +1,7 @@
 {
     "python": {
         "projects": {
-            "PythonScript": {
+            "PythonScriptProject": {
                 "paths": [
                     "PythonScript"
                 ]
@@ -10,7 +10,7 @@
     },
     "java": {
         "projects": {
-            "PythonScript": {
+            "JavaAppProject": {
                 "paths": [
                     "JavaApp"
                 ]
