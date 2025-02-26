@@ -8,7 +8,7 @@
             }
         }
     },
-    "javascript": {
+    "javascript-typescript": {
         "projects": {
             "JavaScriptProject": {
                 "paths": [
