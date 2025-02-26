@@ -1,0 +1,16 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "A simple JavaScript project with Node.js",
+  "main": "testApp.js",
+  "scripts": {
+    "start": "node testApp.js"
+  },
+  "keywords": ["nodejs", "javascript", "example"],
+  "author": "APS",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
