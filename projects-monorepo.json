@@ -3,7 +3,7 @@
         "projects": {
             "PythonScriptProject": {
                 "paths": [
-                    "PythonScript"
+                    "PythonScript","PythonScript/.*"
                 ]
             }
         }
