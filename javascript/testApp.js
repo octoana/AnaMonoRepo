@@ -1,3 +1,9 @@
-<script>
-    alert("Hello, World - test 1 only javascript changes!");
-    </script>
+function sayHello() {
+    const message = "Hello, World!";
+    console.log(message);
+    return message;
+}
+
+sayHello();
+
+module.exports = sayHello;
