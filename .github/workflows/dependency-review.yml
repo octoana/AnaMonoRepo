@@ -8,3 +8,6 @@ on:
 jobs:
   call-reusable-DR-workflow-in-local-repo:
     uses: octoana/DependencyReviewWkfl/.github/workflows/dependency-review-policy.yml@main
+    with:
+      # Possible values: "critical", "high", "moderate", "low"
+      fail-on-severity: critical, high, moderate, low
