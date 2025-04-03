@@ -37,7 +37,7 @@ jobs:
 
       - name: Spot changes to projects
         id: changes
-        uses: advanced-security/monorepo-code-scanning-action/changes@main
+        uses: octoana/monorepo-code-scanning-action/changes@main
         with:
           projects-json: projects-monorepo.json
 
@@ -54,7 +54,7 @@ jobs:
         project: ${{ fromJson(needs.changes.outputs.projects).projects }}
     steps:
       - name: Analyze code
-        uses: advanced-security/monorepo-code-scanning-action/scan@main
+        uses: octoana/monorepo-code-scanning-action/scan@main
         # If you have a custom analysis workflow defined at .github/workflows/custom-codeql-analysis.yml, then set this to 'true' so that it is run.
         # custom-analysis: true
 
@@ -70,6 +70,6 @@ jobs:
     needs: changes
     steps:
       - name: Republish results
-        uses: advanced-security/monorepo-code-scanning-action/republish-sarif@main
+        uses: octoana/monorepo-code-scanning-action/republish-sarif@main
         with:
           projects: ${{ needs.changes.outputs.projects }}

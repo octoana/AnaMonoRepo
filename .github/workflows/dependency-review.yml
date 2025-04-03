@@ -1,0 +1,10 @@
+name: Dependency Review
+
+on:
+  pull_request:
+    branches:
+      - main
+    
+jobs:
+  call-reusable-DR-workflow-in-local-repo:
+    uses: octoana/DependencyReviewWkfl/.github/workflows/dependency-review-policy.yml@main
