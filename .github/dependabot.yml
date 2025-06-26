@@ -1,0 +1,15 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/" # Location of package.json
+    schedule:
+      interval: "daily"
+    allow:
+      - dependency-name: "webpack-dev-server"
+        dependency-type: "production"
+    open-pull-requests-limit: 5
+    commit-message:
+      prefix: "deps"
+    versioning-strategy: increase
+    update-types:
+      - "security"
