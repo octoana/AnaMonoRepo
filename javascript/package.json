@@ -13,7 +13,7 @@
     "uglify-js": "2.4.0",
     "faye": "1.2.4",
     "react-aad-msal": "2.6.4",
-    "webpack-dev-server": "3.11.2"
+    "webpack-dev-server": "5.2.1"
   },
   "devDependencies": {
     "jest": "^29.0.0"
