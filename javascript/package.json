@@ -11,7 +11,8 @@
   "license": "MIT",
   "dependencies": {
     "uglify-js": "2.4.0",
-    "faye": "1.2.4"  // (not the latest)    
+    "faye": "1.2.4",
+    "react-aad-msal": "2.6.4"
   },
   "devDependencies": {
     "jest": "^29.0.0"
