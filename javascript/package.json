@@ -10,7 +10,7 @@
   "author": "APS",
   "license": "MIT",
   "dependencies": {
-    "uglify-js": "2.6.0",
+    "uglify-js": "2.4.0",
     "faye": "1.2.4"  // (not the latest)    
   },
   "devDependencies": {
