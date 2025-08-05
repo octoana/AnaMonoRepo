@@ -16,6 +16,7 @@
 name: "CodeQL monorepo"
 
 on:
+  workflow_dispatch: 
   pull_request:
     branches: ["main"]
     types:
