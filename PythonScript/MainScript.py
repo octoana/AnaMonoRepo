@@ -14,7 +14,7 @@ def say_hello():
     print('hello world - test Ana 11')
 
     # critical vuln example
-    user_input = input("Enter filename: ")
+    user_input = input("Enter filenames: ")
     with open(user_input, 'r') as file:  # Vulnerable to directory traversal
         content = file.read()
 
